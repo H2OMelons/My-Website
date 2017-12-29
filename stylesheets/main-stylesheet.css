@@ -1,0 +1,52 @@
+.welcome-banner-container{
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.welcome-banner{
+  min-width: 100%;
+}
+
+.welcome-text-container{
+  position: absolute;
+  width: 100%;
+  height: auto;
+  top: 10%;
+}
+
+.welcome-text-title{
+  font-size: 20em;
+  font-weight: bold;
+  color: #03A89E;
+  text-shadow:
+    -5px -5px 0 #000,
+    5px -5px 0 #000,
+    -5px 5px 0 #000,
+    5px 5px 0 #000; 
+  margin: 0 auto;
+  text-align: center;
+}
+
+.welcome-text-title-underline{
+  display: inline-block; 
+  width: auto; 
+  border-bottom: 5px solid white;
+}
+
+.welcome-text-subtitle{
+  position: absolute;
+  font-size: 10em;
+  font-weight: bold;
+  color: #03A89E;
+  text-shadow:
+    -5px -5px 0 #000,
+    5px -5px 0 #000,
+    -5px 5px 0 #000,
+    5px 5px 0 #000;
+  margin: 0 auto;
+  text-align: center;
+}
