@@ -9,7 +9,7 @@ html,body{
   display: block;
   min-height: 100vh;
   overflow-x: hidden;
-  background: url('../images/blake-connally.jpg') no-repeat center center fixed;
+  background: black url('../images/blake-connally.jpg') no-repeat center center fixed;
   background-size: cover;
 }
 
@@ -42,8 +42,9 @@ html,body{
 .container-2{
   position: relative;
   overflow-x: hidden;
-  min-height: 100vh;
+  height: auto;
   width: 100%;
+  padding-top: 2em;
   /*background: linear-gradient(-90deg, rgb(53,53,53), rgb(69,69,69));*/
   background-color: #212121;
 }
@@ -90,12 +91,32 @@ html,body{
     2px 2px 0 #000; 
 }
 
+.title-color{
+  color:#E0F2F1;
+}
+
 .primary-color{
   color: #03A89E;
 }
 
+.secondary-color{
+  color:#42A5F5;
+}
+
+.white{
+  color: white;
+}
+
 .gray-background{
   background-color: #303030;
+}
+
+.button-padding-top{
+  padding-top: 20%;
+}
+
+.small-padding-bot{
+  padding-bottom: 2em;
 }
 
 .center-margin{
@@ -106,6 +127,17 @@ html,body{
   margin: 0 0 0 auto;
 }
 
+.text-side-margin{
+  margin: 0 1em;
+}
+
+.no-margin{
+  margin: 0;
+}
+
+.tall-font{
+  font-size: 1.5rem;
+}
 .mouse-font{
   font-size: 2rem;
 }
@@ -179,4 +211,8 @@ html,body{
 .dejaphoto-img{
   width: 100%;
   text-align: center;
+}
+
+.ucsd-img-container{
+  width: 50%;
 }
