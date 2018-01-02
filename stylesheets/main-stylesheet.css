@@ -119,6 +119,10 @@ html,body{
   padding-bottom: 2em;
 }
 
+.small-padding-top{
+  padding-top: 2em;
+}
+
 .center-margin{
   margin: 0 auto;
 }
