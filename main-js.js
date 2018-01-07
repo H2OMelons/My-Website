@@ -1,10 +1,10 @@
 (function($) {
-    $.fn.goTo = function() {
-        $('html, body').animate({
-            scrollTop: $(this).offset().top + 'px'
-        }, 1000);
-        return this;
-    }
+  $.fn.goTo = function() {
+    $('html, body').animate({
+        scrollTop: $(this).offset().top + 'px'
+    }, 1000);
+    return this;
+  }
 })(jQuery);
 
 $("#drop-down-button-1").click(function(){
@@ -13,4 +13,4 @@ $("#drop-down-button-1").click(function(){
 
 $("#drop-down-button-2").click(function(){
   $("#container-3").goTo();
-})
+});
