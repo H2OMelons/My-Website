@@ -9,7 +9,7 @@ html,body{
   display: block;
   min-height: 100vh;
   overflow-x: hidden;
-  background: black url('../images/blake-connally.jpg') no-repeat center center fixed;
+  background: black url('../images/blake-connally-small.jpg') no-repeat center center fixed;
   background-size: cover;
 }
 
